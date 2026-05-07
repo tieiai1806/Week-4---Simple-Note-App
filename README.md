@@ -31,17 +31,17 @@ Dự án tuân thủ mô hình phân lớp chuẩn để tách biệt logic và 
 
 4. Các chức năng chính và Vị trí Code
 
-Dưới đây là danh sách các chức năng thực hiện trong ứng dụng và các file code tương ứng:
+Danh sách các chức năng thực hiện trong ứng dụng và các file code sử dụng:
 
-- Khởi tạo CSDL	|database/db_helper.dart	        | Sử dụng Singleton Pattern để tạo kết nối SQLite.
+- Khởi tạo CSDL (database/db_helper.dart): Sử dụng Singleton Pattern để tạo kết nối SQLite.
 
-- Thêm ghi chú  |providers/note_provider.dart     | Hàm addNote gọi câu lệnh insert của database.
+- Thêm ghi chú  (providers/note_provider.dart): Hàm addNote gọi câu lệnh insert của database.
 
-- Xem danh sách	|screens/home_page.dart           | Sử dụng Consumer để hiển thị dữ liệu từ NoteProvider.
+- Xem danh sách	(screens/home_page.dart): Sử dụng Consumer để hiển thị dữ liệu từ NoteProvider.
 
-- Sửa ghi chú	  |screens/note_editor_screen.dart	| Xử lý logic cập nhật dữ liệu khi người dùng chỉnh sửa.
+- Sửa ghi chú	(screens/note_editor_screen.dart): Xử lý logic cập nhật dữ liệu khi người dùng chỉnh sửa.
 
-- Xóa ghi chú   |screens/note_editor_screen.dart	| Hiển thị hộp thoại xác nhận trước khi thực hiện xóa.
+- Xóa ghi chú (screens/note_editor_screen.dart): Hiển thị hộp thoại xác nhận trước khi thực hiện xóa.
 
 5. Các bước thực hiện demo
 
