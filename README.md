@@ -28,6 +28,7 @@ Dự án tuân thủ mô hình phân lớp chuẩn để tách biệt logic và 
 - provider: Giải pháp quản lý trạng thái để cập nhật giao diện tự động.
 
 - intl: Hỗ trợ định dạng thời gian hiển thị cho ghi chú.
+<img width="1680" height="989" alt="image" src="https://github.com/user-attachments/assets/e89b19ff-dd2b-4230-b727-2b2ca3dbdb2e" />
 
 4. Các chức năng chính và Vị trí Code
 
