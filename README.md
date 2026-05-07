@@ -43,6 +43,7 @@ Danh sách các chức năng thực hiện trong ứng dụng và các file code
 - Sửa ghi chú	(screens/note_editor_screen.dart): Xử lý logic cập nhật dữ liệu khi người dùng chỉnh sửa.
 
 - Xóa ghi chú (screens/note_editor_screen.dart): Hiển thị hộp thoại xác nhận trước khi thực hiện xóa.
+<img width="372" height="361" alt="image" src="https://github.com/user-attachments/assets/7831508b-a6a2-44a7-b032-a91b7aa6c3c8" />
 
 5. Các bước thực hiện demo
 
